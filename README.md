@@ -1,2 +1,54 @@
-# odoo14_configuration_file
-Odoo 14 configuration file
+# Odoo 14 configuration file
+```
+[options]
+addons_path = /opt/odoov14/odoo/addons
+csv_internal_sep = ,
+data_dir = /opt/odoov14/.local/share/Odoo
+db_host = localhost
+db_maxconn = 64
+db_name = False
+db_password = odoov14
+db_port = False
+db_sslmode = prefer
+db_template = template0
+db_user = odoov14
+dbfilter =
+demo = {}
+email_from = False
+geoip_database = /usr/share/GeoIP/GeoLite2-City.mmdb
+http_enable = True
+http_interface =
+http_port = 8014
+import_partial =
+limit_memory_hard = 2684354560
+limit_memory_soft = 2147483648
+limit_request = 8192
+limit_time_cpu = 600
+limit_time_real = 1200
+limit_time_real_cron = -1
+list_db = True
+log_db = False
+log_db_level = warning
+log_handler = :INFO
+log_level = info
+logfile =
+longpolling_port = 8072
+max_cron_threads = 2
+osv_memory_age_limit = 1.0
+osv_memory_count_limit = False
+pg_path =
+pidfile =
+;proxy_mode = True
+reportgz = False
+screencasts =
+screenshots = /tmp/odoo_tests
+server_wide_modules = base,web
+smtp_password = False
+smtp_port = 25
+smtp_server = localhost
+smtp_ssl = False
+smtp_user = False
+syslog = False
+test_enable = False
+translate_modules = ['all']
+```
